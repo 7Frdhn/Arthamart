@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FLATICON ===============-->
+  <link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>E - Commerce</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <!-- <div class="header__top">
+      <div class="header__container container">
+        <div class="header__contact">
+          <span style="display: inline-flex; align-items: center;">
+            <i class="fi fi-rs-phone-call" style="margin-right: 5px; vertical-align: middle;"></i>
+            <span>(+62) - xxxx - xxxx</span>
+            <i class="fi fi-rs-marker" style="margin-right: 5px; margin-left: 30px; vertical-align: middle;"></i>
+            <span>Kalimantan Selatan - Indonesia</span>
+          </span>
+
+        </div>
+
+        <p class="header__alert-news">
+          Penawaran Nilai Super - Hemat Lebih Banyak dengan Voucher
+        </p>
+
+        <a href="login-register.html" class="header__top-action">
+          Log In / Sign Up
+        </a>
+      </div>
+    </div> -->
+
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <div class="nav__menu-top">
+          <a href="index.html" class="nav__menu-logo">
+            <img src="assets/img/logo.png" alt=""> </a>
+
+          <div class="nav__close" id="nav-close">
+            <i class="fi fi-rs-cross-small"></i>
+          </div>
+
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link active-link">Beranda</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="shop.html" class="nav__link">Shop</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="accounts.html" class="nav__link">Akun Saya</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="compare.html" class="nav__link">Membandingkan</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="login-register.html" class="nav__link">Login & Register</a>
+          </li>
+        </ul>
+
+        <div class="header__search">
+          <input type="text" placeholder="Cari..." class="form__input">
+
+          <button class="search__btn">
+            <img src="assets/img/search.png" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div class="header__user-actions">
+        <a href="wishlist.html" class="header__action-btn">
+          <img src="assets/img/icon-heart.svg" alt="">
+          <span class="count">3</span>
+        </a>
+
+        <a href="cart.html" class="header__action-btn">
+          <img src="assets/img/icon-cart.svg" alt="">
+          <span class="count">3</span>
+        </a>
+
+        <div class="header__action-btn nav__toggle" id="nav-toggle">
+          <img src="assets/img/menu-burger.svg" alt="">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home section--lg">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitle">Penawaran Spesial</span>
+          <h1 class="home__title">Tren Terkini<span><br>Koleksi Eksklusif</span></h1>
+          <p class="home__description">Nikmati diskon besar hingga 80% dan berbagai voucher menarik untuk belanja hemat!
+          </p>
+          <a href="shop.html" class="btn">Mulai Belanja</a>
+        </div>
+
+        <img src="assets/img/home-img1.png" alt="Gambar Promosi" class="home__img">
+      </div>
+    </section>
+
+    <!--=============== CATEGORIES ===============-->
+    <section class="categories container section">
+      <h3 class="section__title"><span>Kategori</span> Popupler</h3>
+
+      <div class="categories__container swiper">
+        <div class="swiper-wrapper">
+          <a href="shop.html" class="category__item swiper-slide">
+            <img src="assets/img/product/kategori-1.jpg" alt="" class="category__img">
+
+            <h3 class="category__title">Pakaian Pria</h3>
+          </a>
+
+          <a href="shop.html" class="category__item swiper-slide">
+            <img src="assets/img/product/kategori-2.jpg" alt="" class="category__img">
+
+            <h3 class="category__title">Sepatu</h3>
+          </a>
+
+          <a href="shop.html" class="category__item swiper-slide">
+            <img src="assets/img/product/product-3-2.jpg" alt="" class="category__img">
+
+            <h3 class="category__title">Hoodie</h3>
+          </a>
+
+          <a href="shop.html" class="category__item swiper-slide">
+            <img src="assets/img/product/kategori-3.jpg" alt="" class="category__img">
+
+            <h3 class="category__title">Celana Pria</h3>
+          </a>
+
+          <a href="shop.html" class="category__item swiper-slide">
+            <img src="assets/img/product/kategori-4.jpg" alt="" class="category__img">
+
+            <h3 class="category__title">Sendal Wanita</h3>
+          </a>
+
+          <a href="shop.html" class="category__item swiper-slide">
+            <img src="assets/img/product/kategori-5.jpg" alt="" class="category__img">
+
+            <h3 class="category__title">Pakaian Wanita</h3>
+          </a>
+
+
+          <a href="shop.html" class="category__item swiper-slide">
+            <img src="assets/img/product/kategori-8.jpg" alt="" class="category__img">
+
+            <h3 class="category__title">Boneka</h3>
+          </a>
+
+          <a href="shop.html" class="category__item swiper-slide">
+            <img src="assets/img/product/kategori-7.jpg" alt="" class="category__img">
+
+            <h3 class="category__title">Jam Tangan</h3>
+          </a>
+
+        </div>
+
+        <div class="swiper-button-next"><i class="fi fi-rs-angle-right"></i></div>
+        <div class="swiper-button-prev"><i class="fi fi-rs-angle-left"></i></div>
+      </div>
+    </section>
+
+    <!--=============== PRODUCTS ===============-->
+    <section class="products section container">
+      <div class="tab__btns">
+        <span class="tab__btn active-tab" data-target="#featured">Featured</span>
+        <span class="tab__btn" data-target="#popular">Popular</span>
+        <span class="tab__btn" data-target="#new-added">New Added</span>
+      </div>
+
+      <div class="tab__items">
+        <div class="tab__item active-tab" content id="featured">
+          <div class="products__container grid">
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product/product-1-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product/product-1-1.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="details.html" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">-23%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Aksesoris Otomotif</span>
+                <a href="details.html">
+                  <h3 class="product__title">GARNISH WINDSHIELD VISOR YAMAHA AEROX</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">Rp15.000 - Rp19.500</span>
+                  <!-- <span class="old__price">Rp19.500 - Rp23.500</span> -->
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product/product-2-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product/product-2-1.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">HOODIE - INHABITED REFLEKTIF</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">Rp168.500</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product/product-3-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product/product-3-1.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Hoodie</span>
+                <a href="details.html">
+                  <h3 class="product__title">HHSCO - Hoodie Boxy Unisex Original Sexy Lips White Cotton Fleece</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">Rp164.000</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product/product-4-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product/product-4-1.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Hoodie</span>
+                <a href="details.html">
+                  <h3 class="product__title">HOODIE BOXY DIZZY MOON STAR OVERSIZE</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">116.900</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product/product-5-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product/product-5-1.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Knalpot</span>
+                <a href="details.html">
+                  <h3 class="product__title">Knalpot Original Draco model salemba AEROX</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">Rp180.000 - Rp300.000</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product/product-6-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product/product-6-1.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Celana</span>
+                <a href="details.html">
+                  <h3 class="product__title">Celana Jeans Sobek Lutut Robek Ripped Hitam </h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">Rp109.600</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product/product-7-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product/product-7-1.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">25%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Hoodie</span>
+                <a href="details.html">
+                  <h3 class="product__title">HOODIE BOXY | ARTKANEDREAM</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$90.00</span>
+                  <span class="old__price">$110.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product/product-8-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product/product-8-1.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Sepatu</span>
+                <a href="details.html">
+                  <h3 class="product__title">Sepatu Moonsite Sneakers</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">
+                    Price Section
+                    Rp123.000</span>
+
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab__item" content id="popular">
+          <div class="products__container grid">
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-9-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-9-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-pink">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$219.99</span>
+                  <span class="old__price">$249.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-13-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-13-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-green">10%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$110.50</span>
+                  <span class="old__price">$120.90</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-10-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-10-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">25%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$90.00</span>
+                  <span class="old__price">$110.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-3-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-3-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-pink">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$219.99</span>
+                  <span class="old__price">$249.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-5-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-5-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-pink">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$219.99</span>
+                  <span class="old__price">$249.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-11-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-11-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">25%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$90.00</span>
+                  <span class="old__price">$110.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-12-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-12-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">25%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$90.00</span>
+                  <span class="old__price">$110.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-7-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-7-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">25%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$90.00</span>
+                  <span class="old__price">$110.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab__item" content id="new-added">
+          <div class="products__container grid">
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-1-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-1-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-pink">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$219.99</span>
+                  <span class="old__price">$249.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-12-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-12-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-green">10%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$110.50</span>
+                  <span class="old__price">$120.90</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-3-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-3-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">25%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$90.00</span>
+                  <span class="old__price">$110.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-4-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-4-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-pink">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$219.99</span>
+                  <span class="old__price">$249.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-13-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-13-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-pink">Hot</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$219.99</span>
+                  <span class="old__price">$249.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-6-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-6-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">25%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$90.00</span>
+                  <span class="old__price">$110.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-10-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-10-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">25%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$90.00</span>
+                  <span class="old__price">$110.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+            <div class="product__item">
+              <div class="product__banner">
+                <a href="details.html" class="product__images">
+                  <img src="assets/img/product-8-1.jpg" alt="" class="product__img default">
+                  <img src="assets/img/product-8-2.jpg" alt="" class="product__img hover">
+                </a>
+
+                <div class="product__actions">
+                  <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                  <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                  <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+                </div>
+
+                <div class="product__badge light-orange">25%</div>
+              </div>
+
+              <div class="product__content">
+                <span class="product__category">Clothing</span>
+                <a href="details.html">
+                  <h3 class="product__title">Colorful Pattern Shirts</h3>
+                </a>
+                <div class="product__rating">
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                  <i class="fi fi-rs-star"></i>
+                </div>
+                <div class="product__price flex">
+                  <span class="new__price">$90.00</span>
+                  <span class="old__price">$110.99</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                    class="fi fi-rs-shopping-bag-add"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== DEALS ===============-->
+    <section class="deals section">
+      <div class="deals__container container grid">
+        <div class="deals__item">
+          <div class="deals__group">
+            <h3 class="deals__brand">Penawaran Saat Ini</h3>
+            <span class="deals__category">Jumlah Terbatas</span>
+          </div>
+          <h4 class="deals__title">Koleksi Musim Panas Desain Modern</h4>
+
+          <div class="deals__price flex">
+            <span class="new__price">120.000</span>
+            <span class="old__price">150.000</span>
+          </div>
+
+          <div class="deals__group">
+            <p class="deals__countdown-text">Cepat! Penawaran berakhir dalam:</p>
+
+            <div class="countdown" id="countdown">
+              <div class="countdown__amount">
+                <p class="count-days countdown__period">7</p>
+                <span class="unit">Hari</span>
+              </div>
+              <div class="countdown__amount">
+                <p class="count-hours countdown__period">23</p>
+                <span class="unit">Jam</span>
+              </div>
+              <div class="countdown__amount">
+                <p class="count-minutes countdown__period">59</p>
+                <span class="unit">Menit</span>
+              </div>
+              <div class="countdown__amount">
+                <p class="count-seconds countdown__period">59</p>
+                <span class="unit">Detik</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="deals__btn">
+            <a href="details.html" class="btn btn-md">Beli Sekarang</a>
+          </div>
+        </div>
+
+        <div class="deals__item">
+          <div class="deals__group">
+            <h3 class="deals__brand">Pakaian Pria</h3>
+            <span class="deals__category">Kemeja & Celana</span>
+          </div>
+          <h4 class="deals__title">Mencoba sesuatu yang baru saat liburan</h4>
+
+          <div class="deals__price flex">
+            <span class="new__price">120.000</span>
+            <span class="old__price">150.000</span>
+          </div>
+
+          <div class="deals__group">
+            <p class="deals__countdown-text">Cepat! Penawaran berakhir dalam:</p>
+
+            <div class="countdown" id="countdown">
+              <div class="countdown__amount">
+                <p class="count-days countdown__period">7</p>
+                <span class="unit">Hari</span>
+              </div>
+              <div class="countdown__amount">
+                <p class="count-hours countdown__period">23</p>
+                <span class="unit">Jam</span>
+              </div>
+              <div class="countdown__amount">
+                <p class="count-minutes countdown__period">59</p>
+                <span class="unit">Menit</span>
+              </div>
+              <div class="countdown__amount">
+                <p class="count-seconds countdown__period">59</p>
+                <span class="unit">Detik</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="deals__btn">
+            <a href="details.html" class="btn btn-md">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== NEW ARRIVALS ===============-->
+    <section class="new__arrivals container section">
+      <h3 class="section__title"><span>Berita</span> Terbaru</h3>
+
+      <div class="new__container swiper">
+        <div class="swiper-wrapper">
+          <div class="product__item swiper-slide">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img default">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img hover">
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Pakaian</span>
+              <a href="details.html">
+                <h3 class="product__title">Pakaian Polo Pria</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">219.999</span>
+                <span class="old__price">249.999</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                  class="fi fi-rs-shopping-bag-add"></i></a>
+            </div>
+          </div>
+
+          <div class="product__item swiper-slide">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img default">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img hover">
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Pakaian</span>
+              <a href="details.html">
+                <h3 class="product__title">Pakaian Polo Pria</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">219.999</span>
+                <span class="old__price">249.999</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                  class="fi fi-rs-shopping-bag-add"></i></a>
+            </div>
+          </div>
+
+          <div class="product__item swiper-slide">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img default">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img hover">
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Pakaian</span>
+              <a href="details.html">
+                <h3 class="product__title">Pakaian Polo Pria</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">219.999</span>
+                <span class="old__price">249.999</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                  class="fi fi-rs-shopping-bag-add"></i></a>
+            </div>
+          </div>
+
+
+          <div class="product__item swiper-slide">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img default">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img hover">
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Pakaian</span>
+              <a href="details.html">
+                <h3 class="product__title">Pakaian Polo Pria</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">219.999</span>
+                <span class="old__price">249.999</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                  class="fi fi-rs-shopping-bag-add"></i></a>
+            </div>
+          </div>
+
+
+          <div class="product__item swiper-slide">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img default">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img hover">
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Pakaian</span>
+              <a href="details.html">
+                <h3 class="product__title">Pakaian Polo Pria</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">219.999</span>
+                <span class="old__price">249.999</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                  class="fi fi-rs-shopping-bag-add"></i></a>
+            </div>
+          </div>
+
+          <div class="product__item swiper-slide">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img default">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img hover">
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Pakaian</span>
+              <a href="details.html">
+                <h3 class="product__title">Pakaian Polo Pria</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">219.999</span>
+                <span class="old__price">249.999</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                  class="fi fi-rs-shopping-bag-add"></i></a>
+            </div>
+          </div>
+
+          <div class="product__item swiper-slide">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img default">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img hover">
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Pakaian</span>
+              <a href="details.html">
+                <h3 class="product__title">Pakaian Polo Pria</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">219.999</span>
+                <span class="old__price">249.999</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                  class="fi fi-rs-shopping-bag-add"></i></a>
+            </div>
+          </div>
+
+
+          <div class="product__item swiper-slide">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img default">
+                <img src="assets/img/product/kategori-1.jpg" alt="" class="product__img hover">
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View"><i class="fi fi-rs-eye"></i></a>
+                <a href="#" class="action__btn" aria-label="Add To "><i class="fi fi-rs-heart"></i></a>
+                <a href="#" class="action__btn" aria-label="Compare"><i class="fi fi-rs-shuffle"></i></a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Pakaian</span>
+              <a href="details.html">
+                <h3 class="product__title">Pakaian Polo Pria</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">219.999</span>
+                <span class="old__price">249.999</span>
+              </div>
+              <a href="#" class="action__btn cart__btn" aria-label="Add To Cart"><i
+                  class="fi fi-rs-shopping-bag-add"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"><i class="fi fi-rs-angle-right"></i></div>
+        <div class="swiper-button-prev"><i class="fi fi-rs-angle-left"></i></div>
+      </div>
+    </section>
+
+    <!--=============== SHOWCASE ===============-->
+    <section class="showcase section">
+      <div class="showcase__container container grid">
+        <div class="showcase__wrapper">
+          <h3 class="section__title">Rilisan Terhangat</h3>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/kategori-5.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Floral Print Casual Cotton Dress</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/kategori-2.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Ruffled Solid Long Sleeve</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/product-8-1.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Print V-Neck T-Shirt</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase__wrapper">
+          <h3 class="section__title">Penawaran & Outlet</h3>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/kategori-5.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Floral Print Casual Cotton Dress</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/kategori-2.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Ruffled Solid Long Sleeve</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/product-8-1.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Print V-Neck T-Shirt</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase__wrapper">
+          <h3 class="section__title">Terlaris</h3>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/kategori-5.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Floral Print Casual Cotton Dress</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/kategori-2.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Ruffled Solid Long Sleeve</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/product-8-1.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Print V-Neck T-Shirt</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="showcase__wrapper">
+          <h3 class="section__title">Trending</h3>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/kategori-5.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Floral Print Casual Cotton Dress</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/kategori-2.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Ruffled Solid Long Sleeve</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase__item">
+            <a href="details.html" class="showcase__img-box">
+              <img src="assets/img/product/product-8-1.jpg" alt="" class="showcase__img">
+            </a>
+
+            <div class="showcase__content">
+              <a href="details.html">
+                <h4 class="showcase__title">Print V-Neck T-Shirt</h4>
+              </a>
+
+              <div class="showcase__price flex">
+                <span class="new__price">55.750</span>
+                <span class="old__price">70.850</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== NEWSLETTER ===============-->
+    <section class="newsletter section home__newsletter">
+      <div class="newsletter__container container grid">
+        <h3 class="newsletter__title flex">
+          <img src="assets/img/icon-email.svg" alt="" class="newsletter__icon">
+          Daftar Untuk Info Lebih Lanjut
+        </h3>
+
+        <p class="newsletter__description">Dapatkan Voucher untuk pembelian pertama.</p>
+
+        <form action="" class="newsletter__form">
+          <input type="text" placeholder="Masukan Email Anda" class="newsletter__input">
+
+          <button type="submit" class="newsletter__btn">Berlangganan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <div class="footer__container grid">
+      <div class="footer__content" style="margin-left: 15px;">
+        <a href="index.html" class="footer__logo">
+          <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+        </a>
+
+        <p class="footer__description"> Kalimantan Selatan, Indonesia</p>
+        <p class="footer__description">
+        <p class="footer__description">
+
+        <div class="footer__social">
+          <h4 class="footer__subtitle">Ikuti Kami</h4>
+
+          <div class="footer__social-links">
+            <a href="">
+              <img src="assets/img/icon-facebook.svg" alt="" class="footer__social-icon">
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-instagram.svg" alt="" class="footer__social-icon">
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-youtube.svg" alt="" class="footer__social-icon">
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-twitter.svg" alt="" class="footer__social-icon">
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-pinterest.svg" alt="" class="footer__social-icon">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Layanan Pelanggan</h3>
+
+        <ul class="footer__links">
+          <li><a href="" class="footer__link">Tentang Kami</a></li>
+          <li><a href="" class="footer__link">Informasi Pengiriman</a></li>
+          <li><a href="" class="footer__link">Privacy Policy</a></li>
+          <li><a href="" class="footer__link">Ketentuan Jangka Waktu</a></li>
+          <li><a href="" class="footer__link">Kontak Kami</a></li>
+          <li><a href="" class="footer__link">Support Center</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Akun Saya</h3>
+
+        <ul class="footer__links">
+          <li><a href="" class="footer__link">SignIn</a></li>
+          <li><a href="" class="footer__link">Lihat Keranjang</a></li>
+          <li><a href="" class="footer__link">Wishlist saya</a></li>
+          <li><a href="" class="footer__link">Lacak Pesanan Saya</a></li>
+          <li><a href="" class="footer__link">Bantuan</a></li>
+          <li><a href="" class="footer__link">Pesanan</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Pembayaran </h3>
+        <img src="assets/img/gopay.png" style="width: 50px;" alt="" class="payment__img">
+        <img src="assets/img/dana.png" style="width: 50px;" alt="" class="payment__img">
+        <img src="assets/img/payment-idm.png" alt="" class="payment__img">
+        <img src="assets/img/payment-alfa.png" alt="" class="payment__img">
+        <img src="assets/img/bca.png" alt="" class="payment__img">
+        <img src="assets/img/bni.png" alt="" class="payment__img">
+        <img src="assets/img/bri.png" alt="" class="payment__img">
+        <img src="assets/img/bsi.png" alt="" class="payment__img">
+        <img src="assets/img/mandiri.png" alt="" class="payment__img">
+        <img src="assets/img/visa.png" alt="" class="payment__img">
+
+        <h3 class="footer__title">Pengiriman</h3>
+        <img src="assets/img/jntpng.png" alt="" class="payment__img">
+        <img src="assets/img/jntcargo.png" alt="" class="payment__img">
+        <img src="assets/img/jne.png" alt="" class="payment__img">
+        <img src="assets/img/sicepat.png" alt="" class="payment__img">
+        <img src="assets/img/ninja.png" alt="" class="payment__img">
+        <img src="assets/img/gosend.png" alt="" class="payment__img">
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="copyright">&copy; ArthaMart 2025. Hak Cipta Dilindungi</p>
+      <span class="designer">Designer by Ardhanaaa</span>
+    </div>
+  </footer>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

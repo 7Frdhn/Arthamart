@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FLATICON ===============-->
+  <link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>E - Commerce</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <!-- <div class="header__top">
+      <div class="header__container container">
+        <div class="header__contact">
+          <span style="display: inline-flex; align-items: center;">
+            <i class="fi fi-rs-phone-call" style="margin-right: 5px; vertical-align: middle;"></i>
+            <span>(+62) - xxxx - xxxx</span>
+            <i class="fi fi-rs-marker" style="margin-right: 5px; margin-left: 30px; vertical-align: middle;"></i>
+            <span>Kalimantan Selatan - Indonesia</span>
+          </span>
+
+        </div>
+
+        <p class="header__alert-news">
+          Penawaran Nilai Super - Hemat Lebih Banyak dengan Voucher
+        </p>
+
+        <a href="login-register.html" class="header__top-action">
+          Log In / Sign Up
+        </a>
+      </div>
+    </div> -->
+
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <div class="nav__menu-top">
+          <a href="index.html" class="nav__menu-logo">
+            <img src="assets/img/logo.png" alt=""> </a>
+
+          <div class="nav__close" id="nav-close">
+            <i class="fi fi-rs-cross-small"></i>
+          </div>
+
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Beranda</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="shop.html" class="nav__link">Shop</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="accounts.html" class="nav__link">Akun Saya</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="compare.html" class="nav__link">Membandingkan</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="login-register.html" class="nav__link">Login & Register</a>
+          </li>
+        </ul>
+
+        <div class="header__search">
+          <input type="text" placeholder="Cari..." class="form__input">
+
+          <button class="search__btn">
+            <img src="assets/img/search.png" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div class="header__user-actions">
+        <a href="wishlist.html" class="header__action-btn">
+          <img src="assets/img/icon-heart.svg" alt="">
+          <span class="count">3</span>
+        </a>
+
+        <a href="cart.html" class="header__action-btn">
+          <img src="assets/img/icon-cart.svg" alt="">
+          <span class="count">3</span>
+        </a>
+
+        <div class="header__action-btn nav__toggle" id="nav-toggle">
+          <img src="assets/img/menu-burger.svg" alt="">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== BREADCRUMB ===============-->
+    <section class="breadcrumb">
+      <ul class="breadcrumb__list flex container">
+        <li><a href="index.html" class="breadcrumb__link">Keranjang</a></li>
+        <li><span class="breadcrumb__link">></span></li>
+        <li><span class="breadcrumb__link">Checkout</span></li>
+      </ul>
+    </section>
+
+    <!--=============== CHECKOUT ===============-->
+    <section class="checkout section--lg">
+      <div class="checkout__container container grid">
+        <div class="checkout__group">
+          <h3 class="section__title">Detail Harga</h3>
+
+          <form action="" class="form grid">
+            <input type="text" placeholder="Nama" class="form__input">
+            <input type="text" placeholder="Alamat" class="form__input">
+            <input type="text" placeholder="Kota" class="form__input">
+            <input type="text" placeholder="Negara" class="form__input">
+            <input type="text" placeholder="Nomor Rumah" class="form__input">
+            <input type="text" placeholder="Nomor Telephone" class="form__input">
+            <input type="text" placeholder="Email" class="form__input">
+
+            <h3 class="checkout__title">Informasi Tambahan</h3>
+
+            <textarea name="" placeholder="Catatan" id="" class="form__input textarea"></textarea>
+          </form>
+        </div>
+
+        <div class="checkout__group">
+          <h3 class="section__title">Total Pembelian</h3>
+
+          <table class="order__table">
+            <tr>
+              <th colspan="2">Product</th>
+              <th>Total</th>
+            </tr>
+
+            <tr>
+              <td><img src="assets/img/product/kategori-2.jpg" alt="" class="order__img"></td>
+              <td>
+                <h3 class="table__title">Sepatu Pria
+                  <p class="table__quantity"></p>
+                </h3>
+              </td>
+
+              <td>
+                <span class="table__price">100.000</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td><img src="assets/img/product/kategori-4.jpg" alt="" class="order__img"></td>
+              <td>
+                <h3 class="table__title">Sendal Wanita
+                  <p class="table__quantity">x 2</p>
+                </h3>
+              </td>
+
+              <td>
+                <span class="table__price">100.000</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td><img src="assets/img/product/kategori-8.jpg" alt="" class="order__img"></td>
+              <td>
+                <h3 class="table__title">Boneka Beruang
+                  <p class="table__quantity">x 2</p>
+                </h3>
+              </td>
+
+              <td>
+                <span class="table__price">100.000</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td><span class="order__subtitle">Subtotal</span></td>
+              <td colspan="2">
+                <span class="table__price">400.00</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td><span class="order__subtitle">pengiriman</span></td>
+              <td colspan="2">
+                <span class="table__price">10.000</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td><span class="order__subtitle">Total</span></td>
+              <td colspan="2">
+                <span class="order__grand-total">310.000</span>
+              </td>
+            </tr>
+          </table>
+
+          <div class="payment__methods">
+            <h3 class="checkout__title payment__title">Pembayaran</h3>
+
+            <div class="payment__option flex">
+              <input type="radio" name="radio" class="payment__input">
+              <label for="" class="payment__label">Cash On Delivery</label>
+            </div>
+            <div class="payment__option flex">
+              <input type="radio" name="radio" class="payment__input">
+              <label for="" class="payment__label">Digital Payment</label>
+            </div>
+            <div class="payment__option flex">
+              <input type="radio" name="radio" class="payment__input">
+              <label for="" class="payment__label">Bank Transfer</label>
+            </div>
+          </div>
+
+          <button class="btn btn-md">Pesan</button>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== NEWSLETTER ===============-->
+    <section class="newsletter section home__newsletter">
+      <div class="newsletter__container container grid">
+        <h3 class="newsletter__title flex">
+          <img src="assets/img/icon-email.svg" alt="" class="newsletter__icon">
+          Daftar Untuk Info Lebih Lanjut
+        </h3>
+
+        <p class="newsletter__description">Dapatkan Voucher untuk pembelian pertama.</p>
+
+        <form action="" class="newsletter__form">
+          <input type="text" placeholder="Masukan Email Anda" class="newsletter__input">
+
+          <button type="submit" class="newsletter__btn">Berlangganan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <div class="footer__container grid">
+      <div class="footer__content" style="margin-left: 15px;">
+        <a href="index.html" class="footer__logo">
+          <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+        </a>
+
+        <p class="footer__description"> Kalimantan Selatan, Indonesia</p>
+        <p class="footer__description">
+        <p class="footer__description">
+
+        <div class="footer__social">
+          <h4 class="footer__subtitle">Ikuti Kami</h4>
+
+          <div class="footer__social-links">
+            <a href="">
+              <img src="assets/img/icon-facebook.svg" alt="" class="footer__social-icon">
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-instagram.svg" alt="" class="footer__social-icon">
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-youtube.svg" alt="" class="footer__social-icon">
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-twitter.svg" alt="" class="footer__social-icon">
+            </a>
+
+            <a href="">
+              <img src="assets/img/icon-pinterest.svg" alt="" class="footer__social-icon">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Layanan Pelanggan</h3>
+
+        <ul class="footer__links">
+          <li><a href="" class="footer__link">Tentang Kami</a></li>
+          <li><a href="" class="footer__link">Informasi Pengiriman</a></li>
+          <li><a href="" class="footer__link">Privacy Policy</a></li>
+          <li><a href="" class="footer__link">Ketentuan Jangka Waktu</a></li>
+          <li><a href="" class="footer__link">Kontak Kami</a></li>
+          <li><a href="" class="footer__link">Support Center</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Akun Saya</h3>
+
+        <ul class="footer__links">
+          <li><a href="" class="footer__link">SignIn</a></li>
+          <li><a href="" class="footer__link">Lihat Keranjang</a></li>
+          <li><a href="" class="footer__link">Wishlist saya</a></li>
+          <li><a href="" class="footer__link">Lacak Pesanan Saya</a></li>
+          <li><a href="" class="footer__link">Bantuan</a></li>
+          <li><a href="" class="footer__link">Pesanan</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Pembayaran </h3>
+        <img src="assets/img/gopay.png" style="width: 50px;" alt="" class="payment__img">
+        <img src="assets/img/dana.png" style="width: 50px;" alt="" class="payment__img">
+        <img src="assets/img/payment-idm.png" alt="" class="payment__img">
+        <img src="assets/img/payment-alfa.png" alt="" class="payment__img">
+        <img src="assets/img/bca.png" alt="" class="payment__img">
+        <img src="assets/img/bni.png" alt="" class="payment__img">
+        <img src="assets/img/bri.png" alt="" class="payment__img">
+        <img src="assets/img/bsi.png" alt="" class="payment__img">
+        <img src="assets/img/mandiri.png" alt="" class="payment__img">
+        <img src="assets/img/visa.png" alt="" class="payment__img">
+
+        <h3 class="footer__title">Pengiriman</h3>
+        <img src="assets/img/jntpng.png" alt="" class="payment__img">
+        <img src="assets/img/jntcargo.png" alt="" class="payment__img">
+        <img src="assets/img/jne.png" alt="" class="payment__img">
+        <img src="assets/img/sicepat.png" alt="" class="payment__img">
+        <img src="assets/img/ninja.png" alt="" class="payment__img">
+        <img src="assets/img/gosend.png" alt="" class="payment__img">
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="copyright">&copy; ArthaMart 2025. Hak Cipta Dilindungi</p>
+      <span class="designer">Designer by Ardhanaaa</span>
+    </div>
+  </footer>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
